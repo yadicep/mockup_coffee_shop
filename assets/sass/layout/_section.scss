@@ -1,0 +1,162 @@
+.boxone img{
+    width: 108%;
+    height: 100%;
+    margin-left: -40px;
+}
+.boxone__img1{
+    position: absolute;
+    z-index: -5;
+    @include small{
+        margin-top: 10px;
+        margin-left: 60px;
+      }
+}
+.boxone__img2{
+    width: 532px;
+    height: 120px;
+    background-color: $color-white;
+    position: absolute;
+    z-index: -4;
+    margin-left: 320px;
+    margin-top: 345px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 50px;
+    @include small{
+        margin-top: 180px;
+        margin-left: -20px;
+      }
+}
+.boxone__img2--uno .boxone__img2--dos .boxone__img2--tres{
+    display: inline-block;
+}
+.boxone__img2--uno{
+    h1{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    p{
+        margin-left: 10px;
+        margin-top: -12px;
+    }
+}
+.boxone__img2--dos{
+    h1{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    p{
+        margin-left: 10px;
+        margin-top: -12px;
+    }
+}
+.boxone__img2--tres{
+    h1{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    p{
+        margin-left: 10px;
+        margin-top: -12px;
+    }
+}
+
+
+.boxtwo{
+    margin-left: 50px;
+    height: 156px;
+}
+.boxtwo__two--img1{
+    position: absolute;
+    z-index: -2;
+    background-color: $color-yellow;
+    width: 130px;
+    height: 130px;
+    margin-top: 130px;
+    margin-left: -80px;
+    @include small{
+        display: none;
+      }
+}
+.boxtwo__two--img2{
+    position: absolute;
+    z-index: -1;
+    background-color: $color-orange;
+    width: 130px;
+    height: 130px;
+    margin-top: 110px;
+    margin-left: -100px;
+    color: $color-white;
+    i{
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+        font-size: 70px;
+    }
+    @include small{
+        display: none;
+      }
+}
+
+
+#section2{
+    margin-top: 259px;
+    @include small{
+        margin-top: 400px;
+      }
+}
+.boxthree{
+    @include small{
+        display: none;
+      }  
+}
+.boxthree p{
+    padding-right: 50px;
+}
+
+
+.boxfour{
+    height: 270px;
+    z-index: -3;
+    background-color: $color-blue;
+    img{
+    width: 85%;
+    height: auto;
+    margin-left: -40px;
+    margin-top: 60px;
+    }
+    @include small{
+        display: none;
+      }
+}
+
+
+.boxfive{
+    width: 115%;
+    margin-left: -0.9%;
+}
+.boxfive__img2{
+    img{
+        position: absolute;
+        z-index: -2;
+        @include small{
+            margin-top: -170px;
+            margin-left: 60px;
+            width: 70%;
+        }
+    }
+}
+.boxfive__img3{
+    img{
+        height: 180px;
+        width: 100px;
+        position: relative;
+        z-index: -1;
+        margin-left: -50px;
+    }
+    @include small{
+        display: none;
+      }
+}
